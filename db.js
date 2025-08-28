@@ -7,6 +7,7 @@ var User = new Schema({
   password: String,
 });
 
+
 mongoose.model('User', User);
 
 // Default Mongo URI is local
